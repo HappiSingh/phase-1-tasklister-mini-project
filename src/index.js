@@ -17,7 +17,7 @@ function createNewTask(e) {
   const newTask = document.createElement('li')
   const btn = document.createElement('button')
   btn.addEventListener('click', deleteTask)
-  btn.textContent = 'X'
+  btn.textContent = ' X'
   newTask.textContent = `${newTaskDescription.value} `
   newTask.appendChild(btn).style.position = 'inherit'
   appendTask(newTask)
